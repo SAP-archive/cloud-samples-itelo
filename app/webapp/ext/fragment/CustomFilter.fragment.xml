@@ -1,0 +1,14 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:smartfilterbar="sap.ui.comp.smartfilterbar" xmlns:core="sap.ui.core">
+	<!-- Supplier Filter -->
+	<smartfilterbar:ControlConfiguration groupId="_BASIC" index="2" key="supplier_ID" visibleInAdvancedArea="true">
+		<smartfilterbar:customControl>
+			<MultiInput enableMultiLineMode="true" id="Supplier-multiinput" valueHelpRequest="onCustomSupplierDialogOpen"/>
+		</smartfilterbar:customControl>
+	</smartfilterbar:ControlConfiguration>
+	<!-- Average Rating Filter -->
+	<smartfilterbar:ControlConfiguration key="averageRating" index="3" label="{/#Products/averageRating/@Common.Label}" visibleInAdvancedArea="true" groupId="_BASIC">
+		<smartfilterbar:customControl>
+			<RatingIndicator value="0" enabled="true" id="Product-ratingindicator"></RatingIndicator>
+		</smartfilterbar:customControl>
+	</smartfilterbar:ControlConfiguration>
+</core:FragmentDefinition>

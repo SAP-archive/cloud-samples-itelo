@@ -1,0 +1,25 @@
+{
+	"name": "cloud-samples-itelo",
+	"description": "Standalone application for a product catalog extended by product reviews",
+	"version": "1.0.0",
+	"devDependencies": {
+		"@sap/cds": "2.3.1"
+	},
+	"dependencies": {
+		"@sap/cloud-samples-foundation": "https://github.com/SAP/cloud-samples-foundation.git",
+		"@sap/cloud-samples-catalog": "https://github.com/SAP/cloud-samples-catalog.git"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SAP/cloud-samples-itelo.git"
+	},
+	"scripts": {
+		"build": "cds build --clean"
+	},
+	"cds": {
+		"data": {
+			"sql_mapping": "plain"
+		}
+	},
+	"private": true
+}
