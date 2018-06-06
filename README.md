@@ -52,7 +52,6 @@ To build and deploy your application or modify it and redeploy, use any of the f
 
 This project is provided "as-is": there is no guarantee that raised issues will be answered or addressed in future releases.
 
-
 ## License
 
 Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
