@@ -6,8 +6,8 @@
 		"@sap/cds": "2.3.1"
 	},
 	"dependencies": {
-		"@sap/cloud-samples-foundation": "https://github.com/SAP/cloud-samples-foundation.git",
-		"@sap/cloud-samples-catalog": "https://github.com/SAP/cloud-samples-catalog.git"
+		"@sap/cloud-samples-foundation": "https://github.com/SAP/cloud-samples-foundation.git#rel-1.0",
+		"@sap/cloud-samples-catalog": "https://github.com/SAP/cloud-samples-catalog.git#rel-1.0"
 	},
 	"repository": {
 		"type": "git",

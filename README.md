@@ -2,13 +2,13 @@
 
 The following samples give you more hands-on practice with the [application programming model for SAP Cloud Platform](https://help.sap.com/viewer//65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00823f91779d4d42aa29a498e0535cdf.html):
 
-* Part 1 - [Foundation](https://github.com/SAP/cloud-samples-foundation)
-* Part 2 - [Product Catalog](https://github.com/SAP/cloud-samples-catalog)
+* Part 1 - [Foundation](https://github.com/SAP/cloud-samples-foundation/tree/rel-1.0)
+* Part 2 - [Product Catalog](https://github.com/SAP/cloud-samples-catalog/tree/rel-1.0)
 * Part 3 - ITelO Catalog (current repository)
 
 ### Part 3: ITelO Catalog (Extension Scenario)
 
-The ITelO Catalog shows a sample business application implemented by a team of the fictitious company ITelO. This team needed to implement a product catalog. Looking through available CDS reuse models, they found the [Product Catalog](https://github.com/SAP/cloud-samples-catalog). As an extra requirement, the team needed to include product reviews as an additional source of information for the editor of the product catalog. Unfortunately, reviews are not modeled in the [Product Catalog](https://github.com/SAP/cloud-samples-catalog). Thanks to the application programming model for SAP Cloud Platform they could solve this issue by simply extending the service with additional review entities.
+The ITelO Catalog shows a sample business application implemented by a team of the fictitious company ITelO. This team needed to implement a product catalog. Looking through available CDS reuse models, they found the [Product Catalog](https://github.com/SAP/cloud-samples-catalog/tree/rel-1.0). As an extra requirement, the team needed to include product reviews as an additional source of information for the editor of the product catalog. Unfortunately, reviews are not modeled in the [Product Catalog](https://github.com/SAP/cloud-samples-catalog/tree/rel-1.0). Thanks to the application programming model for SAP Cloud Platform they could solve this issue by simply extending the service with additional review entities.
 
 Technically the sample consists of:
 
