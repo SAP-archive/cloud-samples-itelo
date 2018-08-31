@@ -48,6 +48,8 @@ To build and deploy your application or modify it and redeploy, use any of the f
 
 * Requesting reviews on the product object page causes a CDSRuntimeException.INTERNAL_ERROR when using SAP HANA 2.0 SPS 0.
 
+* When running the module "srv" as Java Application the log shows "CfDeployException: Failed to deploy application". In the file "mta.yaml", change all occurrences of "itelo-java" to "srv". Repeat build and run.
+
 ## Support
 
 This project is provided "as-is": there is no guarantee that raised issues will be answered or addressed in future releases.
