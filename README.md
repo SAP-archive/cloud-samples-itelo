@@ -14,7 +14,7 @@ If either event is reported to the team, or to the SAP GitHub admins, the projec
 
 Please [contact the original owners](mailto:DL_578DEAA97BCF843F1D00002D@exchange.sap.corp?subject=This%20is%20about%20https://github.com/SAP/cloud-samples-itelo) if you have any quesitons, or wish to report either a security or compatibility issue.
 
-[The original README file can be found here](old-readme.md)
+[The original README file can be found here](OLD-README.md)
 
 
 # License
