@@ -3,7 +3,7 @@
 	"description": "Standalone application for a product catalog extended by product reviews",
 	"version": "1.0.0",
 	"devDependencies": {
-		"@sap/cds": "2.3.1"
+		"@sap/cds": "^3"
 	},
 	"dependencies": {
 		"@sap/cloud-samples-foundation": "https://github.com/SAP/cloud-samples-foundation.git",
@@ -15,11 +15,6 @@
 	},
 	"scripts": {
 		"build": "cds build --clean"
-	},
-	"cds": {
-		"data": {
-			"sql_mapping": "plain"
-		}
 	},
 	"private": true
 }
